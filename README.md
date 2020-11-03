@@ -1,3 +1,3 @@
-# React primitive Tailwind and framer motion Starter
+# React Undong Tracking Remake
 
-clone/download and install and start it
+[Live Demo](https://undong-tracking-remake.netlify.app)

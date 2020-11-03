@@ -1,7 +1,25 @@
 import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { Navbar, Footer } from "../components";
+import {
+  Navbar,
+  Reviews,
+  Slider,
+  Footer,
+  About,
+  Cards,
+  Cta,
+} from "../components";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <Navbar></Navbar>
+      <Slider></Slider>
+
+      <About></About>
+      <Cards></Cards>
+      <Reviews></Reviews>
+      <Cta></Cta>
+      <Footer></Footer>
+    </>
+  );
 }

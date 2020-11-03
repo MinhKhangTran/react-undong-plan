@@ -1,3 +1,5 @@
 import Home from "./Home";
+import Error from "./Error";
+import Downloads from "./Downloads";
 
-export { Home };
+export { Downloads, Home, Error };
